@@ -21,16 +21,28 @@
 
 
 module PE_Controller(
+    input clk,
     output [7:0] iter_count
     
     );
     
     localparam  outputs = 16,
+                PEs = 256;
                 
     reg [7:0] filterspan = 3;
     reg [7:0] channels = 16;
     reg [7:0] imagespan = 30;
     
     assign iter_count = filterspan*filterspan;
+    
+    reg [8:0] local = 0;
+    always @ (posedge clk) begin
+    local = imagespan - outputs;
+    if(local>0)
+    //assign addresses 
+    local = local;//placeholder
+    else if (local<0)
+    
+    end
     
 endmodule

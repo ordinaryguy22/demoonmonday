@@ -5,7 +5,7 @@
 *.zip
 *.html
 *.xml
-
+*.sim
 .cache/
 .hw/
 .ip_user_files/
