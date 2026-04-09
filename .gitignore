@@ -1,0 +1,28 @@
+# Vivado junk
+*.jou
+*.log
+*.str
+*.zip
+*.html
+*.xml
+
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.runs/
+.xsim/
+.vivado/
+webtalk/
+
+# Generated output
+*.bit
+*.bin
+*.mcs
+*.ltx
+*.rpt
+
+# Auto-generated bd artifacts
+*.srcs/sources_1/bd/**/hdl/*.vhdl
+*.srcs/sources_1/bd/**/hdl/*.v
+*.srcs/sources_1/bd/**/ip/*/

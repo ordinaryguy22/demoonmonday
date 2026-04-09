@@ -1,0 +1,90 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/rtl" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/ptc" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/gpio" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/WishboneInterconnect" --include "../../../../muslim_soc.srcs/sources_1/imports/src" --include "../../../../muslim_soc.srcs/sources_1/imports/src/tb" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/software/include" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/CELL_ARRAY.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/Decoder.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/INPUT_BUFFER.v" \
+"../../../../muslim_soc.srcs/sources_1/new/Output_Buffer.v" \
+"../../../../muslim_soc.srcs/sources_1/new/PE_Controller.v" \
+"../../../../muslim_soc.srcs/sources_1/new/PE_array.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/RCA_Nbit.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/START_FSM.v" \
+"../../../../muslim_soc.srcs/sources_1/new/WEIGHT_BUFFER.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/adder tree/adder_tree.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/new/clockcycle_counter.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/dma_controller.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/spi/fifo4.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/full_adder.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/highlayercell.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/rtl/i2c_master_bit_ctrl.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/rtl/i2c_master_byte_ctrl.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/rtl/i2c_master_top.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/interface_decoder.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/lowlayercell.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/main_interface.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/multiplierNbit.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/ptc/ptc_top.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/raminfr.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/spi/simple_spi_top.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/sramcell.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/sramcell32bit.v" \
+"../../../../muslim_soc.srcs/sources_1/new/timing_control_imac.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_receiver.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_regs.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_rfifo.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_sync_flops.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_tfifo.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_top.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_transmitter.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart/uart_wb.v" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/WishboneInterconnect/wb_intercon_1.2.2-r1/wb_mux.v" \
+
+sv xil_defaultlib  --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/rtl" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/ptc" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/uart" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/gpio" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/WishboneInterconnect" --include "../../../../muslim_soc.srcs/sources_1/imports/src" --include "../../../../muslim_soc.srcs/sources_1/imports/src/tb" --include "../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/i2c/software/include" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/IMAX.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/main interface/IMCU.sv" \
+"../../../../muslim_soc.srcs/sources_1/new/PE_Tiles_50.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/lib.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/alignment_units.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/alu.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/alu_control.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/atomic_extension.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/branch_controller.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/clint/clint_top.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/clint/clint_wb.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/common_pkg.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/control_unit.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/debug/debug_pkg.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/core_dbg_fsm.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/crypto/crypto_alu_mux.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/crypto/crypto_bitmanip_lib.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/crypto/crypto_unit.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/csr_file.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/data_mem.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/data_path.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/debug/debug_top.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/decompressor.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/div.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/debug/dm.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/debug/dtm.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/exception_encoder.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/forwarding_unit.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/uncore/gpio/gpio_top.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/hazard_controller.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/iadu.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/imm_gen.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/io_mux.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/main_control.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/mul.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/pipeline_controller.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/reg_file.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/rom.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/rv32i_soc.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/core/rv32i_top.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/WishboneInterconnect/wb_intercon.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/soc/WishboneInterconnect/wishbone_controller.sv" \
+"../../../../muslim_soc.srcs/sources_1/imports/src/tb/rv32i_soc_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
